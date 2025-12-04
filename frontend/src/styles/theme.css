@@ -1,0 +1,55 @@
+:root {
+    /* Light Mode */
+    --bg-primary: #ffffff;
+    --bg-secondary: #f9fafb;
+    /* Gray 50 */
+    --bg-tertiary: #f3f4f6;
+    /* Gray 100 */
+    --border-color: #e5e7eb;
+    /* Gray 200 */
+
+    --text-primary: #111827;
+    /* Gray 900 */
+    --text-secondary: #4b5563;
+    /* Gray 600 */
+    --text-muted: #9ca3af;
+    /* Gray 400 */
+
+    --accent-primary: #10a37f;
+    /* ChatGPT Teal */
+    --accent-hover: #0d8a6a;
+
+    --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+    --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+}
+
+.dark {
+    /* Dark Mode */
+    --bg-primary: #111113;
+    /* Deep Zinc */
+    --bg-secondary: #18181b;
+    /* Zinc 900 */
+    --bg-tertiary: #27272a;
+    /* Zinc 800 */
+    --border-color: #3f3f46;
+    /* Zinc 700 */
+
+    --text-primary: #f4f4f5;
+    /* Zinc 100 */
+    --text-secondary: #a1a1aa;
+    /* Zinc 400 */
+    --text-muted: #71717a;
+    /* Zinc 500 */
+
+    --accent-primary: #10a37f;
+    --accent-hover: #0d8a6a;
+
+    --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.3);
+    --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.5);
+}
+
+body {
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    transition: background-color 0.3s, color 0.3s;
+}

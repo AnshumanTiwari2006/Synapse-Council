@@ -1,0 +1,114 @@
+[
+  {
+    "timestamp": 1764678249.7293377,
+    "model": "microsoft/phi-3-medium-instruct",
+    "latency": 1.4598121643066406,
+    "success": false,
+    "tokens": 0
+  },
+  {
+    "timestamp": 1764678253.022128,
+    "model": "meta-llama/llama-3.1-8b-instruct",
+    "latency": 5.575469970703125,
+    "success": true,
+    "tokens": 688
+  },
+  {
+    "timestamp": 1764678254.2635434,
+    "model": "mistralai/mistral-small",
+    "latency": 7.396953344345093,
+    "success": true,
+    "tokens": 685
+  },
+  {
+    "timestamp": 1764678257.1851974,
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "latency": 9.218709945678711,
+    "success": true,
+    "tokens": 491
+  },
+  {
+    "timestamp": 1764678262.6185668,
+    "model": "meta-llama/llama-3.1-70b-instruct",
+    "latency": 4.8802666664123535,
+    "success": true,
+    "tokens": 2343
+  },
+  {
+    "timestamp": 1764678272.4298878,
+    "model": "mistralai/mistral-nemo",
+    "latency": 15.241563558578491,
+    "success": true,
+    "tokens": 2392
+  },
+  {
+    "timestamp": 1764678279.125069,
+    "model": "deepseek/deepseek-chat",
+    "latency": 20.88942790031433,
+    "success": true,
+    "tokens": 2477
+  },
+  {
+    "timestamp": 1764678292.8066173,
+    "model": "mistralai/mistral-nemo",
+    "latency": 13.678243398666382,
+    "success": true,
+    "tokens": 4267
+  },
+  {
+    "timestamp": 1764685895.79584,
+    "model": "mistralai/mistral-small",
+    "latency": 11.951769828796387,
+    "success": true,
+    "tokens": 820
+  },
+  {
+    "timestamp": 1764685897.4491234,
+    "model": "mistralai/mistral-nemo",
+    "latency": 11.353943824768066,
+    "success": true,
+    "tokens": 667
+  },
+  {
+    "timestamp": 1764685898.4940841,
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "latency": 12.759180307388306,
+    "success": true,
+    "tokens": 562
+  },
+  {
+    "timestamp": 1764685912.2177722,
+    "model": "meta-llama/llama-3.1-8b-instruct",
+    "latency": 26.9741051197052,
+    "success": true,
+    "tokens": 817
+  },
+  {
+    "timestamp": 1764685921.4845598,
+    "model": "mistralai/mistral-nemo",
+    "latency": 9.265355825424194,
+    "success": true,
+    "tokens": 3202
+  },
+  {
+    "timestamp": 1764685937.716628,
+    "model": "deepseek/deepseek-chat",
+    "latency": 25.161893129348755,
+    "success": true,
+    "tokens": 3296
+  },
+  {
+    "timestamp": 1764686002.2204845,
+    "model": "meta-llama/llama-3.1-70b-instruct",
+    "latency": 89.83135461807251,
+    "success": true,
+    "tokens": 3370
+  },
+  {
+    "timestamp": 1764686012.1124966,
+    "model": "mistralai/mistral-nemo",
+    "latency": 9.888162612915039,
+    "success": true,
+    "tokens": 5248
+  }
+]
