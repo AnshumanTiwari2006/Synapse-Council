@@ -1508,6 +1508,8 @@ npm run build
 # Serve with nginx or similar
 ```
 
+Please Star the Repo if you like it.
+
 ---
 
 **Built with ❤️ by the Synapse Council Team**
