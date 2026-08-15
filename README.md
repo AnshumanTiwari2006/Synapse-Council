@@ -1,10 +1,10 @@
-# 🏛️ Synapse Council
+# Synapse Council
 
 A sophisticated multi-agent AI system that leverages multiple Large Language Models (LLMs) to provide comprehensive, well-reasoned responses through a three-stage deliberation process. The system features a modern ChatGPT-style interface with advanced visualization tools including Visual Reasoning Trees (VRT) and consensus heatmaps.
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Overview](#overview)
 - [Architecture](#architecture)
@@ -31,7 +31,7 @@ A sophisticated multi-agent AI system that leverages multiple Large Language Mod
 
 ---
 
-## 🎯 Overview
+## Overview
 
 LLM Council X is an advanced AI consultation system that simulates a council of expert AI agents, each with specialized roles (Scientist, Critic, Explainer, Strategist). The system orchestrates these agents through a sophisticated three-stage process to deliver high-quality, consensus-driven responses.
 
@@ -46,7 +46,7 @@ LLM Council X is an advanced AI consultation system that simulates a council of 
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
@@ -78,7 +78,7 @@ LLM Council X is an advanced AI consultation system that simulates a council of 
 
 ---
 
-## ✨ Features
+## Features
 
 ### Core Features
 - ✅ **Multi-Agent Council**: 4 specialized AI roles (Scientist, Critic, Explainer, Strategist)
@@ -101,7 +101,7 @@ LLM Council X is an advanced AI consultation system that simulates a council of 
 
 ---
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 ### Backend
 | Technology | Version | Purpose |
@@ -129,7 +129,7 @@ LLM Council X is an advanced AI consultation system that simulates a council of 
 
 ---
 
-## 📦 Prerequisites
+## Prerequisites
 
 Before you begin, ensure you have the following installed:
 
@@ -149,7 +149,7 @@ Before you begin, ensure you have the following installed:
 
 ---
 
-## 🚀 Installation
+## Installation
 
 ### Clone the Repository
 
@@ -160,7 +160,7 @@ cd "LLM Council X"
 
 ---
 
-## 🔧 Backend Setup
+## Backend Setup
 
 ### Step 1: Navigate to Backend Directory
 
@@ -260,7 +260,7 @@ This directory will store conversation history as JSON files.
 
 ---
 
-## 🎨 Frontend Setup
+## Frontend Setup
 
 ### Step 1: Navigate to Frontend Directory
 
@@ -328,7 +328,7 @@ export default {
 
 ---
 
-## ⚙️ Configuration
+## Configuration
 
 ### Backend Configuration Files
 
@@ -391,7 +391,7 @@ Global theme variables.
 
 ---
 
-## 🏃 Running the Application
+## Running the Application
 
 ### Method 1: Run Both Servers Simultaneously (Recommended)
 
@@ -451,7 +451,7 @@ http://localhost:5173
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 LLM Council X/
@@ -517,7 +517,7 @@ LLM Council X/
 
 ---
 
-## 🔄 How It Works
+## How It Works
 
 ### Stage 1: Initial Responses
 
@@ -684,7 +684,7 @@ Stage 1 Complete: 4 diverse responses
 
 ---
 
-## 📡 API Documentation
+## API Documentation
 
 ### Base URL
 ```
@@ -863,7 +863,7 @@ GET /api/metrics
 
 ---
 
-## 🎨 Frontend Components
+## Frontend Components
 
 ### Component Hierarchy
 
@@ -976,7 +976,7 @@ Consensus heatmap visualization.
 
 ---
 
-## 🚀 Advanced Features
+## Advanced Features
 
 ### 1. Dynamic Agent Pool Selection
 
@@ -1153,7 +1153,7 @@ export async function sendMessageStream(cid, content, onEvent) {
 
 ---
 
-## 💻 Development
+## Development
 
 ### Backend Development
 
@@ -1218,7 +1218,7 @@ npm run preview
 
 ---
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
@@ -1404,7 +1404,7 @@ localStorage.setItem('debug', 'true');
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please follow these guidelines:
 
@@ -1430,13 +1430,13 @@ Contributions are welcome! Please follow these guidelines:
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License.
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **OpenRouter** for providing unified LLM API access
 - **FastAPI** for the excellent Python web framework
@@ -1447,7 +1447,7 @@ This project is licensed under the MIT License.
 
 ---
 
-## 📞 Support
+## Support
 
 For issues, questions, or suggestions:
 - Open an issue on GitHub
@@ -1456,7 +1456,7 @@ For issues, questions, or suggestions:
 
 ---
 
-## 🗺️ Roadmap
+## Roadmap
 
 ### Planned Features
 - [ ] User authentication and multi-user support
@@ -1470,7 +1470,7 @@ For issues, questions, or suggestions:
 
 ---
 
-## 📊 Performance
+## Performance
 
 ### Expected Latencies
 - **Stage 1**: 3-8 seconds (4 parallel API calls)
@@ -1486,7 +1486,7 @@ For issues, questions, or suggestions:
 
 ---
 
-## 🔐 Security
+## Security
 
 ### Best Practices
 - ✅ Never commit `.env` file
